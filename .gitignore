@@ -1,12 +1,13 @@
-# Compiled Object files
-*.slo
-*.lo
+#Ignore some vim files
+Vim/VIM_MRU_FILES
+Vim/NERDTREE_BOOKMARK
+*.swp
+*.pyc
 *.o
-
-# Compiled Dynamic libraries
-*.so
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
+*~
+Vim/vim73/*.*
+Vim/vim73/*
+Vim/vimfiles/.VimballRecord
+!Vim/vim73/gvim.exe
+!Vim/vim73/vimtweak.dll
