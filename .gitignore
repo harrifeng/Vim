@@ -1,13 +1,13 @@
 #Ignore some vim files
-Vim/VIM_MRU_FILES
-Vim/NERDTREE_BOOKMARK
+VIM_MRU_FILES
+NERDTREE_BOOKMARK
 *.swp
 *.pyc
 *.o
 *.a
 *~
-Vim/vim73/*.*
-Vim/vim73/*
-Vim/vimfiles/.VimballRecord
-!Vim/vim73/gvim.exe
-!Vim/vim73/vimtweak.dll
+vim73/*.*
+vim73/*
+vimfiles/.VimballRecord
+!vim73/gvim.exe
+!vim73/vimtweak.dll
