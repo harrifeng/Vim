@@ -2,9 +2,9 @@
 "Basic Setting, no plugin is need. :help keywords for help
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "This setting make sure that the $VIM folder can be accessed
-"if has("linux")
-    ":let $VIM = "/home/hfeng/.vim"
-"endif
+if has("mac")
+    :let $VIM = "/Users/harrifeng/.vim"
+endif
 
 "not compatible with VI
 set nocompatible
@@ -61,7 +61,7 @@ set softtabstop=4
 if has('win32') || has('win64')
     set guifont =Consolas:h10
     set guifontwide=SimSun:h10
-    nmap lf :set guifont =Consolas:h16<CR>:set guifontwide=SimSun:h16<CR>
+    nmap <leader>f :set guifont =Consolas:h16<CR>:set guifontwide=SimSun:h16<CR>
     nmap mf :set guifont =Consolas:h12<CR>:set guifontwide=SimSun:h12<CR>
     nmap sf :set guifont =Consolas:h10<CR>:set guifontwide=SimSun:h10<CR>
     "nmap sf :set guifont =YaHei\ Consolas\ Hybrid:h13<CR>
